@@ -59,17 +59,6 @@ if (!isset($_SESSION['login'])) {
     </tr>
   </tbody>
 </table>
-  <!-- <form action="update_capt.php" method="POST" >
-    <div class="input-group mb-3">
-       <span class="input-group-text" id="inputGroup-sizing-default">sitekey </span>
-       <input type="text" name="sitekey" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-       <span class="input-group-text" id="inputGroup-sizing-default">scretkey</span>
-       <input type="text" name="scretkey" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-    </div>
-    <input type="submit" value="Submit" name="captca" class="btn btn-primary"/>
-  </form> -->
     <a class="btn btn-primary mt-4" href="logout.php">Logout</a>
 </div>
 </body>
