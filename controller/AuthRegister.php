@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
   $username = $_POST['username'];
   $password = $_POST['password'];
 
-    if (!$nam && !$nrp && !$alamat && !$ttl && !$email && !$nohp && !$username && !$password) {
+    if (!$nama && !$nrp && !$alamat && !$ttl && !$email && !$nohp && !$username && !$password) {
         echo "<script>
         alert('Kolom Tidak Boleh Kosong');
         window.location.href='../view/register.php';
