@@ -67,7 +67,7 @@ if (isset($_POST['submit'])) {
                 $_SESSION['username'] = $row['username'];
                 $_SESSION['password'] = $row['password'];
 
-                setcookie($_SESSION['username'], $_SESSION['password'], time() + (60 * 60), "/"); // 86400 = 1 Jam
+                setcookie($_SESSION['username'], $_SESSION['password'], time() + (60 * 60), "/"); // 60 second * 60 = 1 Jam
      
              /*
                  Redirect to halaman dasboard
