@@ -27,9 +27,10 @@ if (isset($_POST['submit'])) {
     $insert = mysqli_query($koneksi,"INSERT INTO data_mahasiswa (nama,nrp,alamat,ttl,email,nohp,username,password) values ('$nama', '$nrp', '$alamat', '$ttl', '$email', '$nohp', '$username', '$password')");
     if ($insert) {
      echo "<script>
-     alert('Register Succes');
-     </script>";
-     header('location: login.php');
+        alert('Succes Daftar ');
+        window.location.href='../view/login.php';
+        </script>"; 
+        exit();
    }else {
      echo "<script>
      alert('Register Not Succes');
